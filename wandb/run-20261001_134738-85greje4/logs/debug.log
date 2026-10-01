@@ -1,0 +1,13 @@
+2026-10-01 13:47:38,947 INFO    MainThread:2528 [wandb_setup.py:_flush():81] Current SDK version is 0.30.0
+2026-10-01 13:47:38,947 INFO    MainThread:2528 [wandb_setup.py:_flush():81] Configure stats pid to 2528
+2026-10-01 13:47:38,947 INFO    MainThread:2528 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:setup_run_log_directory():739] Logging user logs to C:\Users\Danh\Desktop\SAT_Solver\nqueens_solver\wandb\run-20261001_134738-85greje4\logs\debug.log
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to C:\Users\Danh\Desktop\SAT_Solver\nqueens_solver\wandb\run-20261001_134738-85greje4\logs\debug-internal.log
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:init():783] calling init triggers
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:init():831] starting backend
+2026-10-01 13:47:38,948 INFO    MainThread:2528 [wandb_init.py:init():846] sending inform_init request
+2026-10-01 13:47:38,986 INFO    MainThread:2528 [wandb_init.py:init():851] backend started and connected
+2026-10-01 13:47:39,064 INFO    MainThread:2528 [wandb_init.py:init():921] updated telemetry
+2026-10-01 13:47:39,118 INFO    MainThread:2528 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
