@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-18T08:28:49.633502+00:00",
+  "python": "3.13.7",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "logical_cpus": 16,
+  "ram_mb": 14020.9453125,
+  "packages": {
+    "python-sat": "1.9.dev15",
+    "ortools": "9.15.6755",
+    "docplex": "2.32.264",
+    "gurobipy": "13.0.3",
+    "cplex": "22.2.0.1",
+    "psutil": "7.2.2",
+    "matplotlib": "3.10.8"
+  },
+  "arguments": {
+    "sizes": [
+      4,
+      8,
+      9,
+      16,
+      25,
+      27,
+      36,
+      49,
+      64,
+      81,
+      100,
+      125,
+      216,
+      343,
+      512,
+      729,
+      1000,
+      1331
+    ],
+    "encodings": [
+      "binomial",
+      "binary",
+      "commander",
+      "product",
+      "sequential"
+    ],
+    "sat_solvers": [
+      "glucose3",
+      "cadical195"
+    ],
+    "baselines": [
+      "cp-sat",
+      "cplex-cp",
+      "gurobi",
+      "cplex-mip"
+    ],
+    "repeats": 3,
+    "timeout": 100,
+    "ram_mb": 14336,
+    "threads": 1,
+    "seed": 0,
+    "output": "results"
+  }
+}
