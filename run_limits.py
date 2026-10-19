@@ -97,6 +97,7 @@ def stop_process(process, monitor_pid):
 
 
 def run_with_limits(function, args, timeout, ram_limit_mb):
+    # spawn dùng được cả trên Windows và Linux.
     context = mp.get_context("spawn")
     receive, send = context.Pipe(duplex=False)
     process = context.Process(target=worker, args=(function, args, send))

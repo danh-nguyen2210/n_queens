@@ -1,7 +1,8 @@
 python-sat
 ortools
-wandb
 psutil
-pandas
 docplex
+gurobipy
+cplex
 matplotlib==3.10.8
+numpy
